@@ -26,8 +26,8 @@
 					<ul>
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">Education</a></li>
-						<li><a href="#three">Projects</a></li>
-						<li><a href="#four">Publications</a></li>
+						<li><a href="#four">Projects</a></li>
+						<li><a href="#three">Publications</a></li>
 						<li><a href="#five">Contact</a></li>
 					</ul>
 				</nav>
@@ -70,7 +70,8 @@ After finishing my master studies, and for three months, I was a research intern
 I also spent a year working as a research assistant at the Machine Learning and Optimization laboratory (<a href="https://mlo.epfl.ch">MLO</a>) at EPFL, under the supervision of <a href="https://people.epfl.ch/martin.jaggi">Martin Jaggi</a>.<br>
 
 <br/>
-<b style="color:#008055">Research Interests: </b> Machine Learning & Optimization: Distributed Machine Learning, Social Network Analysis, Natural Language Processing, Information Retrieval, and Deep Learning</p>
+<b style="color:#008055">Research Interests:</b>  My research interests lie broadly in the fields of natural language processing (NLP) and machine learning. 
+I am particularly interested in transfer learning for NLP, pretrained language models, and cross-lingual representation learning.</p>
 								</div>
 							</section>
 
@@ -113,6 +114,8 @@ I also spent a year working as a research assistant at the Machine Learning and 
 									<div class="container">
 										<h3>Publications</h3>
 										<p><ul>
+
+	<li><b><u>N. Foroutan Eghlidi</u></b> and M. Jaggi, "Sparse Communication for Training Deep Networks," <i>Workshop on Beyond first-order methods in ML systems at ICML</i>, 2020. (<a href="https://arxiv.org/pdf/2009.09271.pdf"> More Information</a>)</li><br>
 	<li><b><u>N. Foroutan</u></b> and A. Hamzeh, "Discovering the Hidden Structure of a Social Network: A Semi Supervised Approach," <i>IEEE Transactions on Computational Social Systems</i>, pp. 14-25. 2017. (<a href = "https://doi.org/10.1109/TCSS.2017.2668843"> More Information </a>)</li><br>
 	<li><b><u>N. Foroutan Eghlidi</u></b> , Jannick Griner, Nicolas Mesot, Leandro von Werra and Carsten Eickhoff, "ETH Zurich at TREC Precision Medicine 2017," <i>Proceedings of the 26th Text Retrieval Conference (TREC)</i>, 2017.</li><br>
 	<li><b><u>N. Foroutan Eghlidi</u></b>, A. Afshar, B. Ashenagar and A. Hamzeh, "A lightweight method to investigate unknown social network structure." <i>Computer and Knowledge Engineering (ICCKE), 2015 5th International Conference on</i>, pp. 262-267. IEEE, 2015. (<a href= "http://dx.doi.org/10.1109/ICCKE.2015.7365838" >More Information</a>)</li><br>
@@ -149,7 +152,24 @@ I also spent a year working as a research assistant at the Machine Learning and 
 								<div class="container">
 									<h3>Projects</h3>
 									<p>More information about my projects: <a href="https://ir.linkedin.com/in/negarforoutan">LinkedIn</a> <br><ul>
-<li><b>mlbench: Distributed Machine Learning Benchmark</b><span style="float: right"><i>September 2018 - Present</i></span><br>
+										
+<li><b>Cross-lingual Representation Learning for Low-Resource Languages</b><span style="float: right"><i>March 2020 - June 2020</i></span><br>
+	Representation learning has significantly improved the performance of state-of-the-art models in NLP tasks.
+While most of these tasks require large quantities of annotated corpora, the majority of languages are short in annotated text.
+Cross-lingual transfer learning is a technique that can compensate for the lack of data by transferring knowledge from high-resource to low-resource languages.
+In this project, our goal is to transfer a pre-trained monolingual model in a source language to a target language by zero-shot learning.
+In our experiments, we use the German language as the source and Swiss German as the target language.
+We evaluate the obtained model using sentiment analysis as our evaluation down-stream task.</li>
+<br>										
+<li><b>News Article Contextual Embedding</b><span style="float: right"><i>September 2020 - December 2020</i></span><br>
+	In this project, we propose a method for news article embedding such that the new embedding space can categorize articles based on the events they cover.
+	We use BERT embedding as a basis and add a feed-forward neural network on top of it. We also take advantage of triplet loss in the training process.
+	Experimental results show the proposed method outperforms the baselines in terms of adjusted mutual information and adjusted rand index scores.</li>
+<br>
+<li><b>Art Creation Using Generative Adversarial Networks (GANs)</b><span style="float: right"><i>October 2020 - December 2020</i></span><br>
+	In this project, we used BigGAN with inversion technique and progressive-growing GAN networks to generate images of Mesopotamian artifacts as well as Assyrian and (Neo-) Sumerian artifacts which evolved from the Mesopotamian region.</li>
+<br>
+<li><b>mlbench: Distributed Machine Learning Benchmark</b><span style="float: right"><i>September 2018 - September 2019</i></span><br>
 	The goal of this project is to provide a collection of reference implementations of distributed machine learning algorithms for different frameworks and system platforms. Currently, we are working on supervised machine learning algorithms, such as deep learning tasks and linear models. We provide a set of defined tasks and related datasets to have a fair and precise comparison of all algorithms, frameworks, and hardware platforms.</li>
 <br>
 <li><b>TREC 2017 Precision Medicine track</b><span style="float: right"><i>August 2017</i></span><br>
